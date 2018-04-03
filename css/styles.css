@@ -1,0 +1,52 @@
+body {
+    background-color: red;
+}
+.item {
+    display: block;
+    width: 30%;
+    height: 200px;
+    border: 5px solid #222;
+    float: left;
+    margin: 0.5%;
+    background-color: green;
+    
+
+}
+.one {
+    background-color: aqua;
+    }
+.two  {
+    background-color:magenta;
+
+    }
+.three {
+        background-color: orange;
+        }
+    
+
+@media screen and (min-width: 0) and (max-width: 1000px){
+    body {
+        background-color: yellow;
+    }
+    .item{
+        clear: both;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px){
+    body{
+        background-color:  #09c;
+        margin: 0;
+    }
+    .one{
+        display: none;
+    }
+    .item{
+        width: 45%;
+        clear: both;
+        box-sizing: border-box;
+    }
+}
